@@ -1,0 +1,72 @@
+@font-face 
+{
+    font-family: 'metropolis';
+    src: url(metropolis/Metropolis-Light.otf)
+}
+
+.apropos
+{
+    display: space-around;
+    text-align: left;
+    padding: 2em;
+    width: 20%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-family: 'metropolis';
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.description
+{
+    line-height: 20px;
+}
+
+.parcours
+{
+    font-family: 'metropolis';
+    color: rgb(70, 70, 70);
+    padding: 0em 2em 2em 2em;
+}
+#miseenpage
+{
+ display: flex;
+ width: 100%;
+}
+
+td
+{
+    padding: 10px;
+    padding-top: 0px;
+    line-height: 1.2em;
+}
+    
+h1
+{   
+    color: rgb(70, 70, 70);
+    font-size: 63px;
+    font-variant: small-caps;
+}
+h2
+{
+    font-size: 27px;
+    font-variant: small-caps;
+    background-color: rgb(221, 244, 255);
+}
+h3
+{
+    font-variant: small-caps;
+    font-size: 25px;
+}
+h4
+{
+    font-size: 18px;
+}
+img
+{
+    border-radius: 100%;
+}
+li
+{
+    line-height: 2em;
+}
