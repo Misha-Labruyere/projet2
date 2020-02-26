@@ -26,17 +26,26 @@
   #a-propos {
     min-width: 100vw;
     display: flex;
+    flex-direction: column;
+  }
+
+  #parcours {
+    margin-left: 0px;
   }
 
   .contact {
     color: rgb(255, 255, 255);
     font-size: 1em;
-    min-width: 60vw;;
+    min-width: 60vw;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: space-evenly;
   }
 
   .contact ul {
     display: flex;
     flex-direction: column;
+    border-right: 1px solid black;
     }
 
   .description p {
@@ -47,7 +56,7 @@
     font-size: 1.8em;
   }
 
-.experiences, .formation, .recommandations {
+  .experiences, .formation, .recommandations {
     padding-bottom: 30px;
   }
 
@@ -79,6 +88,17 @@
 
   .loisirs {
     display: none;
+  }
+  
+  .adresse-telephone {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    max-height: 100px;
+  }
+
+  address, .telephone {
+    text-align: start;
   }
 }
 
@@ -146,20 +166,13 @@ address {
   font-style: normal;
 }
 
-.contact ul {
-  line-height: 30px;
-  white-space: pre-line;
-  padding-right: 30px;
-}
-
 .loisirs p {
   display: flex;
-  font-size: 3em;
+  font-size: 3.4em;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 0em;
   justify-content: space-evenly;
-  align-content: space-around;
 }
 
 #description {
@@ -179,12 +192,19 @@ address {
   line-height: 20px;
 }
 
+.contact ul {
+  white-space: pre-line;
+  padding-right: 30px;
+  margin-top: 0px;
+}
+
 #parcours {
   margin-left: 20px;
-  padding-bottom: 10px;
   padding-left: 30px;
   color: rgb(55, 71, 79);
+  max-width: 800px;
 }
+
 .formation {
   display: flex;
   flex-wrap: wrap;
@@ -227,15 +247,20 @@ address {
   width: 350px;
 }
 
+.puce-date {
+  display: flex;
+}
+
 .date {
   white-space: pre-line;
   width: 300px;
-  word-spacing: 10px;
+  align-self: center;
 }
 
 i {
   font-size: 0.6em;
-  color: rgb(69, 90, 100);
+  align-self: center;
+  margin-right: 15px;
 }
 
 .loisirs i {
@@ -247,4 +272,15 @@ i {
   font-size: 1em;
   text-align: justify;
   padding: 25px;
+}
+
+.adresse-telephone {
+  height: 180px;
+}
+.mail {
+  height: 60px;
+}
+
+address {
+  height: 80px;
 }
