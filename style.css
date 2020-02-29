@@ -1,0 +1,295 @@
+* {
+  margin-left: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 1024px) {
+  * {
+    margin-top: 0px;
+  }
+
+  #parcours h1,
+  h2 {
+    font-size: 3.5em;
+    max-width: 70vw;
+  }
+
+  #a-propos h4 {
+    border: 1px solid black;
+  }
+
+  #mise-en-page {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 100vw;
+  }
+
+  #a-propos {
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #parcours {
+    margin-left: 0px;
+  }
+
+  .contact {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    min-width: 60vw;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: space-evenly;
+  }
+
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .experiences,
+  .formation,
+  .recommandations {
+    padding-bottom: 30px;
+  }
+
+  .experiences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .formation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .date {
+    width: 30%;
+  }
+
+  .work {
+    display: flex;
+    max-width: 70%;
+  }
+
+  .image {
+    position: absolute;
+    right: 50px;
+    top: 0px;
+  }
+
+  .loisirs {
+    display: none;
+  }
+
+  .adresse-telephone {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    max-height: 100px;
+  }
+
+  address,
+  .telephone {
+    text-align: start;
+  }
+}
+
+h1 {
+  color: rgb(69, 90, 100);
+  font-size: 3.7em;
+  margin-bottom: 0em;
+}
+
+h1 span {
+  color: black;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 50px;
+}
+
+h2 span {
+  border-bottom: 1px rgb(69, 90, 100) solid;
+}
+
+h3 {
+  font-size: 1.4em;
+  padding-bottom: 10px;
+  border-bottom: 1px rgb(55, 71, 79) solid;
+  color: black;
+}
+
+h3 i {
+  font-size: 1em;
+  color: rgb(69, 90, 100);
+}
+
+h4 {
+  margin-bottom: 2px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: white;
+  color: rgb(55, 71, 79);
+  font-size: 1.1em;
+}
+
+#a-propos h4 {
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+img {
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+#description {
+  line-height: 20px;
+}
+
+#mise-en-page {
+  display: flex;
+  width: 1024px;
+}
+
+#a-propos {
+  max-width: 23vw;
+  text-align: start;
+  background-color: rgb(69, 90, 100);
+  color: white;
+  line-height: 20px;
+}
+
+#parcours {
+  margin-left: 20px;
+  padding-left: 30px;
+  color: rgb(55, 71, 79);
+  max-width: 575px;
+}
+
+.formation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.experiences {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recommandations {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.employeur {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  white-space: pre-line;
+  line-height: 25px;
+  width: 30vw;
+}
+
+.employeur h4 {
+  margin-top: 20px;
+}
+
+.employeur span {
+  font-weight: bold;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: start;
+  width: 350px;
+}
+
+.puce-date {
+  display: flex;
+}
+
+.date {
+  white-space: pre-line;
+  width: 200px;
+  align-self: center;
+}
+
+i {
+  font-size: 0.5em;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.loisirs i {
+  color: white;
+  font-size: 3.2em;
+}
+
+.photo-art {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 55px;
+}
+
+.sport {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.description p {
+  line-height: 30px;
+  font-size: 0.93em;
+  text-align: justify;
+  padding: 20px;
+  min-height: 260px;
+}
+
+.adresse-telephone {
+  height: 210px;
+}
+.mail {
+  height: 80px;
+}
+
+address {
+  height: 70px;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  white-space: pre-line;
+  margin-top: 0px;
+  font-size: 1em;
+  padding-left: 15px;
+  font-size: 0.95em;
+}
