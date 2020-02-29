@@ -48,12 +48,8 @@
     border-right: 1px solid black;
     }
 
-  .description p {
-    color: rgb(255, 255, 255);
-    background-color: rgb(69, 90, 100);
-    line-height: 5px;
-    border-left: 1px solid black;
-    font-size: 1.8em;
+  .description {
+    display: none;
   }
 
   .experiences, .formation, .recommandations {
@@ -104,7 +100,7 @@
 
 h1 {
   color: rgb(69, 90, 100);
-  font-size: 4em;
+  font-size: 3.7em;
   margin-bottom: 0em;
 }
 
@@ -166,15 +162,6 @@ address {
   font-style: normal;
 }
 
-.loisirs p {
-  display: flex;
-  font-size: 3.4em;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 0em;
-  justify-content: space-evenly;
-}
-
 #description {
   line-height: 20px;
 }
@@ -185,24 +172,18 @@ address {
 }
 
 #a-propos {
-  max-width: 30vw;
+  max-width: 23vw;
   text-align: start;
   background-color: rgb(69, 90, 100);
   color: white;
   line-height: 20px;
 }
 
-.contact ul {
-  white-space: pre-line;
-  padding-right: 30px;
-  margin-top: 0px;
-}
-
 #parcours {
   margin-left: 20px;
   padding-left: 30px;
   color: rgb(55, 71, 79);
-  max-width: 800px;
+  max-width: 575px;
 }
 
 .formation {
@@ -254,34 +235,57 @@ address {
 
 .date {
   white-space: pre-line;
-  width: 300px;
+  width: 200px;
   align-self: center;
 }
 
 i {
-  font-size: 0.6em;
+  font-size: 0.5em;
   align-self: center;
   margin-right: 15px;
 }
 
 .loisirs i {
   color: white;
+  font-size: 3.2em;
+}
+
+.photo-art {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 55px;
+}
+
+.sport {
+  text-align: center;
+  padding-top: 30px;
 }
 
 .description p {
   line-height: 30px;
-  font-size: 1em;
+  font-size: 0.93em;
   text-align: justify;
-  padding: 25px;
+  padding: 20px;
+  min-height: 260px;
 }
 
 .adresse-telephone {
-  height: 180px;
+  height: 210px;
 }
 .mail {
-  height: 60px;
+  height: 80px;
 }
 
 address {
-  height: 80px;
+  height: 70px;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  white-space: pre-line;
+  margin-top: 0px;
+  font-size: 1em;
+  padding-left: 15px;
+  font-size: 0.95em;
 }
