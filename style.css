@@ -104,7 +104,7 @@
 
 h1 {
   color: rgb(69, 90, 100);
-  font-size: 3.7em;
+  font-size: 3.6em;
   margin-bottom: 0em;
 }
 
@@ -166,17 +166,13 @@ address {
   font-style: normal;
 }
 
-#description {
-  line-height: 20px;
-}
-
 #mise-en-page {
   display: flex;
   width: 1024px;
 }
 
 #a-propos {
-  max-width: 23vw;
+  max-width: 250px;
   text-align: start;
   background-color: rgb(69, 90, 100);
   color: white;
@@ -251,18 +247,18 @@ i {
 
 .loisirs i {
   color: white;
-  font-size: 3.2em;
+  font-size: 2em;
 }
 
 .photo-art {
   display: flex;
   justify-content: space-around;
-  padding-top: 55px;
+  padding-top: 30px;
 }
 
 .sport {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .description p {
@@ -270,7 +266,7 @@ i {
   font-size: 0.93em;
   text-align: justify;
   padding: 20px;
-  min-height: 260px;
+  min-height: 250px;
 }
 
 .adresse-telephone {
@@ -289,7 +285,7 @@ address {
   flex-direction: column;
   white-space: pre-line;
   margin-top: 0px;
-  font-size: 1em;
+  font-size: 0.5em;
   padding-left: 15px;
   font-size: 0.95em;
 }
