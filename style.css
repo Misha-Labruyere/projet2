@@ -89,16 +89,17 @@
     display: none;
   }
 
-  .adresse-telephone {
+  .adresse-telephone-mail {
     display: flex;
     justify-content: space-evenly;
     align-content: space-around;
-    max-height: 100px;
+    text-align: start;
+    height: 100px;
   }
 
-  address,
-  .telephone {
-    text-align: start;
+  .telephone,
+  .mail {
+    line-height: 1.7em;
   }
 }
 
