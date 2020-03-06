@@ -30,25 +30,26 @@
   }
 
   #mise-en-page {
+    min-width: 100vw;
     display: flex;
     flex-direction: column-reverse;
   }
 
   #a-propos {
-    min-width: 100%;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
   }
 
   #parcours {
+    min-width: 100vw;
     margin-top: 200px;
-    margin-left: auto;
   }
 
   .contact {
     color: rgb(255, 255, 255);
     font-size: 22px;
-    text-align: center;
+
   }
 
   .recommandations {
@@ -56,7 +57,6 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-
   }
 
   .employeur {
@@ -73,6 +73,7 @@
     flex-direction: column;
     list-style: none;
     padding-bottom: 20px;
+    justify-content: center;
   }
 
   .puce-date {
