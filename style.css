@@ -26,6 +26,7 @@
   }
 
   #a-propos h4 {
+    font-size: 24px;
     border: 1px solid black;
   }
 
@@ -84,7 +85,7 @@
   .image {
     position: absolute;
     top: 0px;
-    left: 40%;
+    left: 50%;
     margin-bottom: 300px;
   }
 
@@ -238,7 +239,12 @@ i {
   padding-left: 35px;
   padding-right: 25px;
   font-size: 0.9em;
-  list-style: none;
+  list-style: none; 
+}
+
+.contact li {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .emploi {
