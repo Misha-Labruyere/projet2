@@ -37,7 +37,7 @@
   }
 
   #a-propos {
-    min-width: 100%;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
   }
@@ -85,7 +85,7 @@
   .image {
     position: absolute;
     top: 0px;
-    left: 45%;
+    left: 40%;
     margin-bottom: 300px;
   }
 
@@ -97,7 +97,7 @@
 
   .description {
     font-size: 24px;
-    max-height: 220px;
+    min-width: 100vw;
   }
 }
 
