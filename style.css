@@ -50,7 +50,6 @@
   }
 
   #parcours {
-    min-width: 100vw;
     margin-top: 200px;
   }
 
@@ -61,7 +60,7 @@
   }
 
   .recommandations {
-    font-size: 22px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
@@ -70,14 +69,12 @@
   .employeur {
     display: flex;
     flex-wrap: nowrap;
-    min-width: 100vw;
     padding-bottom: 30px;
   }
 
   .emploi {
-    min-width: 100vw;
     font-size: 20px;
-    word-break: break-all;
+    word-wrap: break-word;
     flex-direction: column;
     padding-bottom: 20px;
   }
@@ -203,7 +200,7 @@ address {
   justify-content: start;
   white-space: pre-line;
   line-height: 25px;
-  width: 30vw;
+  width: 49vw;
 }
 
 .employeur h4 {
