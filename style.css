@@ -87,7 +87,7 @@
   .image {
     position: absolute;
     top: 0px;
-    left: 40%;
+    left: 35%;
     margin-bottom: 300px;
   }
 
@@ -264,6 +264,7 @@ i {
 .work {
   width: 420px;
 }
+
 a {
   color: rgb(188, 201, 206);
 }
