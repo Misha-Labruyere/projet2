@@ -15,7 +15,7 @@
   }
 
   #parcours h1 {
-    font-size: 3.7em;
+    font-size: 3em;
   }
 
   #parcours h2 {
@@ -23,7 +23,7 @@
   }
 
   #parcours h3 {
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 40px;
   }
 
@@ -48,6 +48,7 @@
 
   #parcours {
     margin-top: 200px;
+    word-wrap: break-word;
   }
 
   .contact {
