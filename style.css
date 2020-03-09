@@ -44,7 +44,6 @@
   #a-propos {
     display: flex;
     flex-direction: column;
-    margin-right: 0px;
   }
 
   #parcours {
@@ -54,7 +53,6 @@
   .contact {
     color: rgb(255, 255, 255);
     font-size: 24px;
-
   }
 
   .recommandations {
@@ -80,6 +78,10 @@
   .puce-date {
     display: flex;
     font-size: 22px;
+  }
+
+  .work {
+    max-width: fit-content;
   }
 
   .image {
@@ -260,9 +262,8 @@ i {
 }
 
 .work {
-  min-width: 420px;
+  width: 420px;
 }
-
 a {
   color: rgb(188, 201, 206);
 }
