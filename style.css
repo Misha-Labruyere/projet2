@@ -37,13 +37,11 @@
   }
 
   #mise-en-page {
-    min-width: 100vw;
     display: flex;
     flex-direction: column-reverse;
   }
 
   #a-propos {
-    min-width: 100vw;
     display: flex;
     flex-direction: column;
     margin-right: 0px;
@@ -99,7 +97,6 @@
 
   .description {
     font-size: 24px;
-    min-width: 100vw;
     min-height: fit-content;
   }
 }
