@@ -3,6 +3,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
 @media (max-width: 1024px) {
   * {
     margin-left: 0px;
